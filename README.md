@@ -16,6 +16,8 @@ Dependencies:
 Simple example:
 
 ```
+SkyScannerClient client = new SkyScannerClient("Your SkyScanner API key");
+
 // Create the session object with the request data
 SessionRequest sessionRequest = SessionRequest.SessionRequestBuilder.aSessionRequest()
         .withAdults(1)
