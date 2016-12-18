@@ -25,7 +25,7 @@ public class Segments {
     private final String duration;
     @SerializedName("Directionality")
     private final String directionality;
-    @SerializedName("OperatinCarrier")
+    @SerializedName("OperatingCarrier")
     private final String operatingCarrier;
     @SerializedName("Id")
     private final String id;
