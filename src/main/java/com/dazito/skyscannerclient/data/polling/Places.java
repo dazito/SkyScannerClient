@@ -1,14 +1,21 @@
 package com.dazito.skyscannerclient.data.polling;
 
+import com.google.gson.annotations.SerializedName;
+
 /**
  * Created by daz on 16/11/2016.
  */
 public class Places {
 
+    @SerializedName("Name")
     private final String name;
+    @SerializedName("ParentId")
     private final String parentId;
+    @SerializedName("Type")
     private final String type;
+    @SerializedName("Id")
     private final String id;
+    @SerializedName("Code")
     private final String code;
 
     public Places(String name, String parentId, String type, String id, String code) {
