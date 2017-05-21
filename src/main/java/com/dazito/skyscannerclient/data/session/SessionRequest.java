@@ -57,10 +57,10 @@ public class SessionRequest {
         private String inboundDate; //	Date	Formatted as YYYY-mm-dd
         private LocationSchema locationSchema;
         private String cabinClass;
-        private int adults; // Defaults to 1 if not specified. Maximum 8
-        private int children; // Defaults to 0, maximum 8
-        private int infants; // Defaults to 0, cannot exceed adults
-        private boolean groupPricing; // Defaults to false
+        private int adults = 1; // Defaults to 1 if not specified. Maximum 8
+        private int children = 0; // Defaults to 0, maximum 8
+        private int infants = 0; // Defaults to 0, cannot exceed adults
+        private boolean groupPricing = false; // Defaults to false
 
         private SessionRequestBuilder() {
         }
